@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Presensi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Presensi" parent="Base.Theme.Presensi" />
+    <style name="Theme.Button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorPrimary">#525BFF</item>
+    </style>
+    <style name="Picker" parent="Base.Theme.Presensi">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+</resources>
